@@ -11,7 +11,6 @@ class Map:
         for i in range(len(self.points)):
             for j in range(len(self.points[i])):
                 if self.points[i][j] == 1:
-                    print(self.points[i][j])
                     self.drow_block(i, j)
         print()
 
